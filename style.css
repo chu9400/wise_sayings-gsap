@@ -23,7 +23,7 @@ body {
 
 
 /* 각 세션 배경색 */
- #section1, #section3, #section5, #section7, #section9  {
+ #section1, #section3, #section5, #section7, #section9, #section11, #section13, #section15, #section17 {
     background-color: #111;
 }
 
@@ -58,12 +58,18 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 }
+.parallax__item2 .pi__text.t3{
+    font-size: 3vw;
+    margin-top: 5vh;
+}
+
 .parallax__item2 .pi__img {
-    background: url("/img/images01.jpg") no-repeat center / cover;
-    width: 200px;
-    height: 200px;
+    background: url("./img/img01.jpg") no-repeat;
+    background-position: center 15%;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 
@@ -81,6 +87,7 @@ body {
     font-size: 5vw;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
 }
 
 
@@ -93,7 +100,7 @@ body {
     justify-content: center;
 }
 .parallax__item4 .sec4__img{
-    background: url("/img/images01.jpg") no-repeat center / cover;
+    background: url("./img/images01.jpg") no-repeat center / cover;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -144,7 +151,7 @@ body {
     right: 5vw;
     width: 50%;
     height: 50%;
-    background: url("/img/images01.jpg") no-repeat center / cover;
+    background: url("./img/images01.jpg") no-repeat center / cover;
 }
 
 .parallax__item6 .pi__desc {
@@ -161,7 +168,7 @@ body {
     left: 5vw;
     width: 50%;
     height: 50%;
-    background: url("/img/images01.jpg") no-repeat center / cover;
+    background: url("./img/images01.jpg") no-repeat center / cover;
 }
 
 .parallax__item6 .pi__desc__left {
@@ -195,7 +202,7 @@ body {
     right: 5vw;
     width: 50%;
     height: 50%;
-    background: url("/img/images01.jpg") no-repeat center / cover;
+    background: url("./img/images01.jpg") no-repeat center / cover;
 }
 
 .parallax__item7 .pi__desc {
@@ -212,7 +219,7 @@ body {
     left: 5vw;
     width: 50%;
     height: 50%;
-    background: url("/img/images01.jpg") no-repeat center / cover;
+    background: url("./img/images01.jpg") no-repeat center / cover;
 }
 
 .parallax__item7 .pi__desc__left {
@@ -230,36 +237,315 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: top;
-    position: relative;
     flex-direction: column;
     background-color: #111;
 }
 
 .parallax__item8 .pi__desc{
     font-size: 4vw;
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 
 .parallax__item8 .pi__imgWrap {
     width: 300px;
     height: 300px;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .parallax__item8 .pi__imgWrap .pi__img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: url("/img/images01.jpg") no-repeat center / cover;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+    margin-bottom: 10vh;
 }
 
 
-/* parallax__item8 */
+/* 가로 스크롤*/
+/* parallax__item9 */
+#horizontal {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 600%;
+}
+#horizontal > section {
+    width: 100%;
+}
 .parallax__item9 {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: top;
+    
+}
+.parallax__item9 .pi__desc{
+    font-size: 4vw;
+}
+
+.parallax__item9 .pi__imgWrap {
+    width: 300px;
+    height: 300px;
+}
+
+.parallax__item9 .pi__imgWrap .pi__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+}
+
+/* parallax__item10 */
+.parallax__item10 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.parallax__item10 .pi__desc{
+    font-size: 4vw;
+}
+
+.parallax__item10 .pi__imgWrap {
+    width: 300px;
+    height: 300px;
+    margin-top: 10vh;
+}
+
+.parallax__item10 .pi__imgWrap .pi__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+}
+
+/* parallax__item11 */
+.parallax__item11 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.parallax__item11 .pi__desc{
+    font-size: 4vw;
+}
+
+.parallax__item11 .pi__imgWrap {
+    width: 300px;
+    height: 300px;
+    margin-top: 10vh;
+}
+
+.parallax__item11 .pi__imgWrap .pi__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+}
+
+
+/* parallax__item12 */
+.parallax__item12 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.parallax__item12 .pi__imgWrap {
+    width: 30vw;
+    height: 100%;
+    
+}
+
+.parallax__item12 .pi__imgWrap .pi__img {
+    width: 100%;
+    height: 100%;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+}
+
+.parallax__item12 .pi__desc{
+    font-size: 4vw;
+    margin-left: 15vw;
+}
+
+
+/* parallax__item13 */
+.parallax__item13 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.parallax__item13 .pi__desc{
+    font-size: 4vw;
+}
+
+.parallax__item13 .pi__imgWrap {
+    width: 300px;
+    height: 300px;
+    margin-top: 10vh;
+}
+
+.parallax__item13 .pi__imgWrap .pi__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+}
+/* 가로므드 끝 */
+
+
+/* parallax__item14 */
+.parallax__item14 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parallax__item14 .pi__imgWrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax__item14 .pi__imgWrap .pi__img {
+    width: 100%;
+    height: 100%;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+}
+.parallax__item14 .pi__imgWrap .pi__img::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.parallax__item14 .pi__desc{
+    font-size: 4vw;
+    z-index: 1;
+}
+
+/* parallax__item15 */
+.parallax__item15 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parallax__item15 .pi__imgWrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax__item15 .pi__imgWrap .pi__img {
+    width: 100%;
+    height: 100%;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+}
+.parallax__item15 .pi__imgWrap .pi__img::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.parallax__item15 .pi__desc{
+    font-size: 4vw;
+    z-index: 1;
+}
+
+/* parallax__item16 */
+
+.parallax__item16 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parallax__item16 .pi__imgWrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax__item16 .pi__imgWrap .pi__img {
+    width: 100%;
+    height: 100%;
+    background: url("./img/images01.jpg") no-repeat center / cover;
+}
+.parallax__item16 .pi__imgWrap .pi__img::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.parallax__item16 .pi__desc{
+    font-size: 4vw;
+    z-index: 1;
+}
+
+/* parallax__item17 */
+.parallax__item17 {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* parallax__item18 */
+.parallax__item18 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+    
+}
+.parallax__item18 p{
+    font-size: 4vw;
+    font-weight: 700;
+    z-index: 1;
 }
