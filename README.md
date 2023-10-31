@@ -6,8 +6,7 @@
 
 ## 완성작
 
-<!-- [사이트보기](https://chu9400-port2023-next.netlify.app/) -->
-미정
+[사이트보기](https://chu9400-gsap.netlify.app/)
 
 ## 프로젝트 실행 방법
 - 저장소의 압축 파일을 다운로드합니다.
