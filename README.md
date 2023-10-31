@@ -6,7 +6,8 @@
 
 ## 완성작
 
-[사이트보기](https://chu9400-wise-saying.netlify.app/){:target="_blank" rel="noopener noreferrer}
+[사이트보기](https://chu9400-wise-saying.netlify.app/)
+<a href="https://www.google.com/" target="_blank">새 탭에서 열기</a>
 
 ## 프로젝트 실행 방법
 - 저장소의 압축 파일을 다운로드합니다.
