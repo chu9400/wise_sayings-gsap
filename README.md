@@ -5,9 +5,8 @@
 - [GSAP](https://gsap.com/)를 이용하여 사이트를 제작합니다. 
 
 ## 완성작
+https://chu9400-wise-saying.netlify.app/
 
-[사이트보기](https://chu9400-wise-saying.netlify.app/)
-<a href="https://www.google.com/" target="_blank">새 탭에서 열기</a>
 
 ## 프로젝트 실행 방법
 - 저장소의 압축 파일을 다운로드합니다.
